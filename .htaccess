@@ -1,0 +1,24 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
